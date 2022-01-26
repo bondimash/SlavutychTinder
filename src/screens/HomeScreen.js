@@ -11,15 +11,11 @@ import TinderCard from '../components/TinderCard';
 
 import users from '../../TinderAssets/assets/data/users';
 
-// debugger - flipper
-
 const HomeScreen = () => {
   const onSwipeLeft = user => {
-    console.warn('swipe left: ', user.name);
   };
 
   const onSwipeRight = user => {
-    console.warn('swipe right: ', user.name);
   };
 
   return (
