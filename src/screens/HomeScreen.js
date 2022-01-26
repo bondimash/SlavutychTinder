@@ -12,11 +12,9 @@ import TinderCard from '../components/TinderCard';
 import users from '../../TinderAssets/assets/data/users';
 
 const HomeScreen = () => {
-  const onSwipeLeft = user => {
-  };
+  const onSwipeLeft = () => {};
 
-  const onSwipeRight = user => {
-  };
+  const onSwipeRight = () => {};
 
   return (
     <View style={styles.pageContainer}>
@@ -26,7 +24,7 @@ const HomeScreen = () => {
         onSwipeLeft={onSwipeLeft}
         onSwipeRight={onSwipeRight}
       />
-      
+
       <View style={styles.icons}>
         <View style={styles.button}>
           <FontAwesome name="undo" size={30} color="#FBD88B" />
